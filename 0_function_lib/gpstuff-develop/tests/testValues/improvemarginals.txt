@@ -1,0 +1,6 @@
+Time elapsed for marginal corrections with EP-FACT: 0.1 s and for predictions 0.0 s
+Time elapsed for marginal corrections with LA-CM2: 0.1 s and for predictions 0.0 s
+Time elapsed for marginal corrections with LA-FACT: 0.0 s and for predictions 0.0 s
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

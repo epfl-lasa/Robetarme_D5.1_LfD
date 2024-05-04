@@ -1,0 +1,12 @@
+Checking gradient ...
+
+   analytic   diffs     delta
+
+   -6.7439   -6.7439   -0.0000
+    2.1897    2.1897   -0.0000
+   -2.3321   -2.3321   -0.0000
+
+ TolFun reached. Func-count 19. Final f(x)=16.4578. Elapsed time 0.05
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

@@ -1,0 +1,4 @@
+ TolFun reached. Func-count 37. Final f(x)=169.569. Elapsed time 1.02
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

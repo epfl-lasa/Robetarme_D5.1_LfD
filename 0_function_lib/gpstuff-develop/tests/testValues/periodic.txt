@@ -1,0 +1,65 @@
+ Optimizer Results
+  Algorithm Used: Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+  Exit message : Change in the objective function value was less than TolFun.
+  Iterations : 25
+  Function Count : 41
+  Minimum found : 582.4295
+  Intern Time : 0.0096327 seconds
+  Total Time : 1.4504 seconds
+GP with sexp+sexp+noise:  l_1= 478.43, s^2_1 = 1880.90, 
+ l_2= 2.31, s^2_2 = 5.90 
+ s^2_{noise} = 0.04
+ Iteration  Func-count   Grad-count         f(x)         Step-size
+     0           1           1             567.966    
+     1           6           6             567.821     3.33254e-07
+     2          11          11             186.599      0.00870751
+     3          15          15             178.532      0.00677012
+     4          17          17             174.011             0.1
+     5          20          20             171.958            0.01
+     6          23          23             170.366        0.039811
+     7          27          27             163.861       0.0354478
+     8          30          30             160.989        0.287394
+     9          32          32              158.37        0.271234
+    10          33          33               156.7               1
+    11          35          35             156.584         0.37827
+    12          37          37              156.58        0.186371
+ Optimizer Results
+  Algorithm Used: Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+  Exit message : Line search cannot find an acceptable point along the current search direction
+  Iterations : 13
+  Function Count : 52
+  Minimum found : 156.5799
+  Intern Time : 0.011047 seconds
+  Total Time : 4.1689 seconds
+GP sexp+periodic+sexp+noise:  l_1= 204.51, s^2_1 = 517.06, 
+ l_2= 1.38, s^2_2 = 6.86, p=12.00, s_sexp^2 = 1469.76, 
+ l_3= 4.01, s^2_3 = 0.17, 
+ s^2_{noise} = 0.04
+[Warning: quad_moments: Reached the limit on the maximum number of intervals in use.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quad_moments', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\private\quad_moments.m', 122)" style="font-weight:bold">quad_moments</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\private\quad_moments.m',122,0)">line 122</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lik_poisson>lik_poisson_tiltedMoments', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\lik_poisson.m', 247)" style="font-weight:bold">lik_poisson>lik_poisson_tiltedMoments</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\lik_poisson.m',247,0)">line 247</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gpep_e/ep_algorithm', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gpep_e.m', 2066)" style="font-weight:bold">gpep_e/ep_algorithm</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gpep_e.m',2066,0)">line 2066</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gpep_e', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gpep_e.m', 115)" style="font-weight:bold">gpep_e</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gpep_e.m',115,0)">line 115</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gp_e', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_e.m', 54)" style="font-weight:bold">gp_e</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_e.m',54,0)">line 54</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gp_eg', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_eg.m', 35)" style="font-weight:bold">gp_eg</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_eg.m',35,0)">line 35</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gp_optim>@(ww)gp_eg(ww,gp,x,y,''z'',z)', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_optim.m', 66)" style="font-weight:bold">gp_optim>@(ww)gp_eg(ww,gp,x,y,'z',z)</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_optim.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fminlbfgs>gradient_function', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m', 890)" style="font-weight:bold">fminlbfgs>gradient_function</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m',890,0)">line 890</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fminlbfgs>bracketingPhase', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m', 744)" style="font-weight:bold">fminlbfgs>bracketingPhase</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m',744,0)">line 744</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fminlbfgs>linesearch', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m', 583)" style="font-weight:bold">fminlbfgs>linesearch</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m',583,0)">line 583</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fminlbfgs', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m', 279)" style="font-weight:bold">fminlbfgs</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\optim\fminlbfgs.m',279,0)">line 279</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gp_optim', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_optim.m', 121)" style="font-weight:bold">gp_optim</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\gp_optim.m',121,0)">line 121</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('demo_periodic', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\demo_periodic.m', 286)" style="font-weight:bold">demo_periodic</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\gp\demo_periodic.m',286,0)">line 286</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rundemo', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\tests\rundemo.m', 111)" style="font-weight:bold">rundemo</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\tests\rundemo.m',111,0)">line 111</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_periodic>testRunDemo', 'C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\tests\test_periodic.m', 44)" style="font-weight:bold">test_periodic>testRunDemo</a> (<a href="matlab: opentoline('C:\work\10_surface_reconstruct_and_trj_mapping\function_lib\thirdpart\gpstuff-develop\tests\test_periodic.m',44,0)">line 44</a>)]
+ Optimizer Results
+  Algorithm Used: Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+  Exit message : Change in the objective function value was less than TolFun.
+  Iterations : 20
+  Function Count : 29
+  Minimum found : 249.6466
+  Intern Time : 0.0039306 seconds
+  Total Time : 0.68854 seconds
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

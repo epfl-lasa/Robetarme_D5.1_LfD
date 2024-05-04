@@ -1,0 +1,45 @@
+1) Linear model with intercept and slope wrt time
+ TolFun reached. Func-count 19. Final f(x)=19.4149. Elapsed time 0.03
+2) Linear model with hierarchical intercept
+ TolFun reached. Func-count 25. Final f(x)=-37.2922. Elapsed time 0.09
+3) Linear model with hierarchical intercept and slope
+ TolFun reached. Func-count 33. Final f(x)=-46.4251. Elapsed time 0.11
+4) Nonlinear model with hierarchical intercept
+ TolFun reached. Func-count 40. Final f(x)=-45.8041. Elapsed time 0.15
+5) Non-linear hierarchical model 1 with MAP
+ TolFun reached. Func-count 88. Final f(x)=-77.8152. Elapsed time 0.58
+6) Non-linear hierarchical model 1 with IA
+ IA-CCD: finding the mode
+ IA-CCD: computing Hessian using multiplication
+ IA-CCD: 147 points for 9 parameters
+ IA-CCD: autoscaling in 18 directions
+ IA-CCD: scaling minmax [0.63 1.42]
+ IA-CCD: evaluating density at 147 points
+7) Non-linear hierarchical model 2 with MAP
+ TolFun reached. Func-count 39. Final f(x)=-80.2506. Elapsed time 0.42
+8) Non-linear hierarchical model 2 with IA
+ IA-CCD: finding the mode
+ IA-CCD: computing Hessian using multiplication
+ IA-CCD: 45 points for 6 parameters
+ IA-CCD: autoscaling in 12 directions
+ IA-CCD: scaling minmax [0.84 1.26]
+ IA-CCD: evaluating density at 45 points
+9) Non-linear hierarchical model 3 with IA
+ TolFun reached. Func-count 43. Final f(x)=-64.4989. Elapsed time 0.18
+ IA-CCD: finding the mode
+ IA-CCD: computing Hessian using multiplication
+ IA-CCD: 79 points for 7 parameters
+ IA-CCD: autoscaling in 14 directions
+ IA-CCD: scaling minmax [0.70 1.29]
+ IA-CCD: evaluating density at 79 points
+10) Missing data example
+ TolFun reached. Func-count 49. Final f(x)=-4.10282. Elapsed time 0.13
+ IA-CCD: finding the mode
+ IA-CCD: computing Hessian using multiplication
+ IA-CCD: 79 points for 7 parameters
+ IA-CCD: autoscaling in 14 directions
+ IA-CCD: scaling minmax [0.64 1.33]
+ IA-CCD: evaluating density at 79 points
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

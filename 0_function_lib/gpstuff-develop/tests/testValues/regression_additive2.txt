@@ -1,0 +1,17 @@
+Constant + linear covariance function
+ TolFun reached. Func-count 31. Final f(x)=103.189. Elapsed time 0.10
+Constant + squared exponential covariance function
+(w.r.t. the first input dimension) + linear (w.r.t.
+the second input dimension)
+ TolFun reached. Func-count 33. Final f(x)=54.0344. Elapsed time 0.21
+Additive squared exponential covariance function
+ TolFun reached. Func-count 35. Final f(x)=26.9207. Elapsed time 0.33
+Squared exponential covariance function
+ TolFun reached. Func-count 29. Final f(x)=30.6121. Elapsed time 0.15
+Additive neural network covariance function
+ TolFun reached. Func-count 33. Final f(x)=24.4157. Elapsed time 0.18
+Neural network covariance function
+ TolFun reached. Func-count 54. Final f(x)=24.2467. Elapsed time 0.19
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

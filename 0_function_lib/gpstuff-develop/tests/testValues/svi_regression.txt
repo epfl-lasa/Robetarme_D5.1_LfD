@@ -1,0 +1,22 @@
+Assign inducing inputs by clustering
+iter=1/150, e=-732.570, mlpd=0.04274, rmse=0.06911, de=Inf
+iter=11/150, e=1629.526, mlpd=1.342, rmse=0.01712, de=0.046437
+iter=21/150, e=1638.317, mlpd=1.351, rmse=0.0162, de=1.095
+iter=31/150, e=1644.299, mlpd=1.354, rmse=0.01482, de=0.0073081
+iter=41/150, e=1648.740, mlpd=1.357, rmse=0.01423, de=0.64816
+iter=51/150, e=1650.691, mlpd=1.353, rmse=0.01425, de=0.030972
+iter=61/150, e=1653.222, mlpd=1.357, rmse=0.01379, de=0.59069
+iter=71/150, e=1654.000, mlpd=1.356, rmse=0.01367, de=0.6423
+iter=81/150, e=1655.254, mlpd=1.362, rmse=0.01316, de=0.15539
+iter=91/150, e=1656.536, mlpd=1.362, rmse=0.01342, de=0.83011
+iter=101/150, e=1657.619, mlpd=1.362, rmse=0.01362, de=0.51816
+iter=111/150, e=1657.949, mlpd=1.359, rmse=0.01333, de=0.0014543
+iter=121/150, e=1659.547, mlpd=1.362, rmse=0.013, de=0.3813
+iter=131/150, e=1660.080, mlpd=1.361, rmse=0.01268, de=0.47525
+iter=141/150, e=1660.773, mlpd=1.361, rmse=0.0126, de=0.071447
+Iteration limit 150 reached while optimising the parameters
+Final values:
+e=1660.349, mlpd=1.362, rmse=0.01307
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

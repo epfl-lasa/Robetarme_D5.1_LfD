@@ -1,0 +1,11 @@
+Full GP
+ TolFun reached. Func-count 35. Final f(x)=51.3654. Elapsed time 0.06
+FIC GP
+ TolX reached. Func-count 8. Final f(x)=59.2696. Elapsed time 0.03
+VAR GP
+ TolFun reached. Func-count 56. Final f(x)=65.8333. Elapsed time 0.08
+DTC GP
+ TolFun reached. Func-count 266. Final f(x)=42.6811. Elapsed time 0.29
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

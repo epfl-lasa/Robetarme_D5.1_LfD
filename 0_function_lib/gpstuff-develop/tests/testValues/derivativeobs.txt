@@ -1,0 +1,22 @@
+GP model without derivative obs
+Checking gradient ...
+
+   analytic   diffs     delta
+
+    2.2001    2.2001    0.0000
+   -1.0624   -1.0624   -0.0000
+
+ TolFun reached. Func-count 17. Final f(x)=5.67863. Elapsed time 0.06
+GP model with derivative obs
+Checking gradient ...
+
+   analytic   diffs     delta
+
+    3.6684    3.6684   -0.0000
+  -10.3567  -10.3567   -0.0000
+    1.1596    1.1596    0.0000
+
+ TolX reached. Func-count 19. Final f(x)=8.66448. Elapsed time 0.09
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);

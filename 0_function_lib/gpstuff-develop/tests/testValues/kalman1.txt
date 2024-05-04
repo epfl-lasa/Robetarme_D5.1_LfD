@@ -1,0 +1,11 @@
+ TolFun reached. Func-count 27. Final f(x)=-10.5562. Elapsed time 0.04
+ TolFun reached. Func-count 27. Final f(x)=-10.5562. Elapsed time 0.18
+
+   Parameter |     FULL |   KALMAN 
+-----------------------------------
+  magnSigma2 |   0.0944 |   0.0944 
+ lengthScale |   0.7018 |   0.7018 
+      sigma2 |   0.0083 |   0.0083 
+Usage: [nlZ dnlZ          ] = gp(hyp, inf, mean, cov, lik, x, y);
+   or: [ymu ys2 fmu fs2   ] = gp(hyp, inf, mean, cov, lik, x, y, xs);
+   or: [ymu ys2 fmu fs2 lp] = gp(hyp, inf, mean, cov, lik, x, y, xs, ys);
